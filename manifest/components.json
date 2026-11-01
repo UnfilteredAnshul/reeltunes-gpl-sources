@@ -1,0 +1,71 @@
+{
+  "generated_utc": "2026-11-01T20:38:44Z",
+  "app": "ReelTunes (com.buildwithanshul.reeltunes)",
+  "platform_abi_documented": "arm64-v8a",
+  "note": "Only components with copyleft obligations are listed. Files are shipped unmodified; the hashes above are the hashes of the bytes packaged into the APK.",
+  "components": [
+    {
+      "component": "io.github.junkfood02.youtubedl-android:library",
+      "version": "0.18.1",
+      "licence": "GPL-3.0-only",
+      "artifact": "library-0.18.1.aar",
+      "artifact_sha256": "579b5fb480892b1abc2b218c2089699d52759cc8d7ba256bf876453f0365faef",
+      "artifact_bytes": 59213110,
+      "payload": [
+        {
+          "path": "jni/arm64-v8a/libpython.so",
+          "bytes": 4384,
+          "sha256": "58ba29cfc5a6d88281c07b2b480fb1d8cce1b78f280b002347f792cfd9cf5901"
+        },
+        {
+          "path": "jni/arm64-v8a/libpython.zip.so",
+          "bytes": 14305904,
+          "sha256": "7edecb6c9bd3a94456168d44911d8aea9f917bedef90c320a29500d92ac3eb62"
+        },
+        {
+          "path": "jni/arm64-v8a/libqjs.so",
+          "bytes": 916104,
+          "sha256": "a0fe160a8cd76eec34132f945664856e96687d701e3b1ff28dff44ea1fad13bc"
+        },
+        {
+          "path": "res/raw/ytdlp",
+          "bytes": 3170726,
+          "sha256": "89a0d9058ea9018e380b7771898ff46e393a1986dcd13fef331693c87ce1fca4",
+          "yt_dlp": {
+            "version": "2025.11.12",
+            "git_head": "335653be82d5ef999cfc2879d005397402eebec1",
+            "channel": "stable",
+            "origin": "yt-dlp/yt-dlp"
+          }
+        }
+      ],
+      "modified_by_reeltunes": false
+    },
+    {
+      "component": "io.github.junkfood02.youtubedl-android:ffmpeg",
+      "version": "0.18.1",
+      "licence": "GPL-3.0-only",
+      "artifact": "ffmpeg-0.18.1.aar",
+      "artifact_sha256": "0a87ffa6cf912b0fe76c1a99b9107f543ee2f247935fae2c71f0822eb7bc5f49",
+      "artifact_bytes": 139371444,
+      "payload": [
+        {
+          "path": "jni/arm64-v8a/libffmpeg.so",
+          "bytes": 317120,
+          "sha256": "1b8d5c371ea79e6e7a1930b31f2ad6a2731e48d75ceddc9c36dffda6e0092401"
+        },
+        {
+          "path": "jni/arm64-v8a/libffmpeg.zip.so",
+          "bytes": 35624931,
+          "sha256": "4664a895283f9f31786be39b0c484c1f96631f02c7c7f9c70a4a4a2da324a092"
+        },
+        {
+          "path": "jni/arm64-v8a/libffprobe.so",
+          "bytes": 233664,
+          "sha256": "a4d4a6d1562aa87934e99ee1a43f8090ec1040659cedb667d6edf3aa08408c5e"
+        }
+      ],
+      "modified_by_reeltunes": false
+    }
+  ]
+}
