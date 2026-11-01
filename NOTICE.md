@@ -44,9 +44,9 @@ See `SOURCE_OFFER.md`.
 Copyright © c statecs. Used as the Dart/Kotlin bridge that calls the engine.
 See `LICENSES/MIT-ytdlp_flutter.txt`.
 
-ReelTunes vendors this package locally with the automatic engine update call
-removed, so the app never downloads executable code at runtime. The change is
-confined to the bridge and is described in `BUILD.md`.
+ReelTunes uses a locally vendored copy of this package with the automatic
+engine-update call removed, so the app does not download executable code at
+runtime. The change is confined to the bridge and is described in `BUILD.md`.
 
 ---
 

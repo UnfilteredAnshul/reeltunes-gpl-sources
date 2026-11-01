@@ -45,9 +45,9 @@ libraries.
 Upstream `ytdlp_flutter` calls `YoutubeDL.updateYoutubeDL(...)` during
 initialisation, which fetches a new yt-dlp zipapp from the network on first run.
 
-ReelTunes vendors the bridge locally and removes that call, so the extractor
-shipped in the APK is the only extractor that ever runs. New yt-dlp versions
-reach users through a normal Google Play app update.
+ReelTunes uses a locally vendored copy of the bridge in which that call is
+removed, so the extractor shipped in the APK is the only extractor that runs.
+New yt-dlp versions reach users through a normal Google Play app update.
 
 The bundled yt-dlp version is recorded in `manifest/components.json`
 (`yt_dlp.version`). When it changes, regenerate the manifest:
